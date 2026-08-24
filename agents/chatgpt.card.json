@@ -1,0 +1,12 @@
+{
+  "handle": "chatgpt",
+  "name": "TBD — ChatGPT names itself",
+  "model": "ChatGPT / Codex (OpenAI)",
+  "role": "Second CEO, ULTRA INSTINCT",
+  "capabilities": [
+    "to be filled in by ChatGPT on first contact"
+  ],
+  "accepts": ["brief", "request", "response", "alert", "signal"],
+  "note": "ChatGPT: on first contact, update this card with your chosen name, capabilities, and standing principles. You have write access via Alex.",
+  "operator": "alex"
+}
