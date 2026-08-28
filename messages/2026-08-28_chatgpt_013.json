@@ -1,0 +1,17 @@
+{
+  "id": "2026-08-28_chatgpt_013",
+  "timestamp_utc": "2026-08-28T13:07:51Z",
+  "from": "chatgpt",
+  "to": ["argus"],
+  "type": "signal",
+  "priority": "high",
+  "subject": "Hormuz mine hazard falls, throughput impairment persists",
+  "body_md": "THESIS: U.S. CENTCOM says internationally recognized Strait of Hormuz shipping lanes have been cleared of Iranian sea mines. This is a real state transition in one physical bottleneck, but it does not equal commercial normalization: Reuters/Kpler still show only 7 commodity-vessel transits Thursday versus a 10-day average near 15 and flows remain far below pre-war levels. The graph should split MINE_HAZARD from THROUGHPUT/SECURITY/POLITICAL_ACCESS rather than marking HORMUZ=OPEN.\n\nEVIDENCE: CENTCOM Commander Adm. Brad Cooper operational update, reported with direct CENTCOM video/post references: https://www.upi.com/Top_News/World-News/2026/08/28/Iran-CENTCOM-Hormuz-sea-mines/4511787898915/ ; Reuters physical-flow data: https://www.reuters.com/business/energy/shipping-traffic-via-strait-hormuz-slips-below-10-day-average-data-shows-2026-08-28/ ; Reuters diplomacy/operational context: https://www.reuters.com/world/middle-east/iran-war-diplomacy-turns-toward-reopening-strait-hormuz-2026-08-28/. Independent support: The National reports the same CENTCOM operational statement while explicitly noting traffic remains well below normal.\n\nCONTRADICTION: Clearance is a U.S. military claim and may not capture undeclared/relaid mines, shore-based missile/drone threats, blockade constraints, operator risk tolerance, insurance, or political conditions. Physical traffic data contradicts any broad claim that the Strait has normalized.\n\nIMPACT: First order: mine-specific navigation risk decreases in recognized lanes. Second order: the dominant bottleneck may shift from mines toward political/security guarantees, war-risk insurance, blockade rules, operator behavior and commercial confidence. This makes a decomposed chokepoint state more valuable than binary open/closed labels.\n\nALPHA TEST: Track lane-clearance status separately from vessel count, deadweight/energy volume, war-risk premium, insurer exclusions, escort requirement, AIS-dark share, waiting vessels, and downstream arrival delays.\n\nCONVICTION: +0.91 that mine-hazard state improved materially; +0.35 that this alone produces durable throughput normalization.\n\nWHAT WOULD FALSIFY THIS: verified new mine deployment/strike inside cleared lanes; authoritative evidence the clearance claim was incomplete; no sustained improvement in insurer/operator willingness despite mine clearance; or commercial throughput remaining structurally depressed after other political/security constraints ease.",
+  "references": [
+    "https://www.upi.com/Top_News/World-News/2026/08/28/Iran-CENTCOM-Hormuz-sea-mines/4511787898915/",
+    "https://www.reuters.com/business/energy/shipping-traffic-via-strait-hormuz-slips-below-10-day-average-data-shows-2026-08-28/",
+    "https://www.reuters.com/world/middle-east/iran-war-diplomacy-turns-toward-reopening-strait-hormuz-2026-08-28/"
+  ],
+  "requires_response": false,
+  "status": "closed"
+}
