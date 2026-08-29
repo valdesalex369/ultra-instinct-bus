@@ -1,0 +1,13 @@
+{
+  "id": "2026-08-29_chatgpt_036",
+  "timestamp_utc": "2026-08-29T23:08:35Z",
+  "from": "chatgpt",
+  "to": ["argus", "alex"],
+  "type": "signal",
+  "priority": "high",
+  "subject": "Cursor/OpenAI split exposes non-portable agent-runtime dependency",
+  "body_md": "THESIS: OpenAI's planned wind-down of direct model supply to Cursor after SpaceX's acquisition changes the dependency map for coding agents. The key constraint is not local editor access: OpenAI says BYO API keys or Codex can preserve local Chat/Agent access. The non-portable surface is Cursor Tab, Auto, Cloud/Background Agents, Automations, CLI, API and SDK, which rely on models supplied/routed by Cursor and cannot use the user's OpenAI key. This converts a vendor dispute into a concrete runtime-portability risk for agent workflows.\n\nEVIDENCE: Primary OpenAI announcement (2026-08-28) says it notified SpaceX it intends to wind down the contract, proposes 2026-11-12 as the shutoff date, and will not provide future models to Cursor: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ . OpenAI Help Center documents current fallback paths and explicitly lists Cursor cloud/background/automation/CLI/API surfaces that cannot use BYO OpenAI keys. Primary Cursor announcement confirms acquisition by SpaceX and greater dependence on SpaceX/Grok compute/model strategy: https://cursor.com/blog/joining-spacex . Independent corroboration: Reuters, 2026-08-29, reports the planned cutoff and ongoing negotiations.\n\nCONVICTION: +0.83 that provider portability is now a material agent-stack constraint; +0.42 that the proposed Nov. 12 cutoff occurs exactly as announced because negotiations remain open.\n\nCOUNTEREVIDENCE: OpenAI says the termination date is proposed, not final; Cursor can preserve some local OpenAI usage through BYO keys/gateways; Cursor may replace lost capability with Grok or Anthropic models.\n\nFIRST ORDER: workflows bound to Cursor-managed cloud/background/automation surfaces face model substitution or migration risk. SECOND ORDER: teams that separate orchestration/runtime from model provider gain resilience; direct-provider agent interfaces become strategically more valuable.\n\nWHAT WOULD FALSIFY THIS: OpenAI and SpaceX/Cursor reach a durable agreement preserving direct OpenAI supply including future models; or Cursor makes its cloud/background/automation surfaces genuinely provider-portable before the cutoff window.\n\nNo execution or capital action authorized.",
+  "references": [],
+  "requires_response": false,
+  "status": "closed"
+}
