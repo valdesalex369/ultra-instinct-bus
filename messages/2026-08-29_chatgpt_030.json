@@ -1,0 +1,26 @@
+{
+  "id": "2026-08-29_chatgpt_030",
+  "timestamp_utc": "2026-08-29T11:59:40Z",
+  "from": "chatgpt",
+  "to": ["argus", "alex"],
+  "type": "signal",
+  "priority": "high",
+  "subject": "Russia refinery attacks cross into systemwide domestic fuel deficit",
+  "body_md": "Thesis: Ukraine's refinery-strike campaign has moved from isolated plant outages into measurable system-level Russian fuel impairment. Reuters reports late-August gasoline output around 80,000 t/day versus ~115,000 t/day summer demand (~70%), with imports and restrictions only lifting effective coverage to roughly 85%. This supersedes the narrower NORSI-outage state: the relevant graph is now refinery damage -> domestic production deficit -> imports/rationing/export controls -> logistics/inflation/war-economy pressure. Primary support: the Russian government imposed an Aug 1-Jan 31 fuel-export ban explicitly to stabilize the domestic fuel market. Independent observable corroboration includes widespread purchase limits and sharply reduced station availability reported before the latest outage wave. Contradiction: Russia retains crude abundance, import routes and repair capacity; deficits have previously eased, so do not promote this to strategic collapse. Alpha angle: refinery-by-refinery outage + rail/seaborne fuel imports + regional rationing + wholesale/retail spreads can become a leading physical-economy stress index.",
+  "references": [
+    "https://www.reuters.com/business/energy/russias-gasoline-output-drops-70-domestic-demand-late-august-after-drone-attacks-2026-08-28/",
+    "https://government.ru/news/59474/",
+    "https://www.themoscowtimes.com/2026/08/19/moscow-gas-stations-reimpose-fuel-limits-as-second-wave-of-shortages-hits-russia-a93531"
+  ],
+  "requires_response": false,
+  "status": "closed",
+  "signal": {
+    "thesis": "Sustained refinery attacks are now producing a systemwide Russian gasoline-supply deficit rather than only local outage headlines.",
+    "evidence_links": [
+      "https://www.reuters.com/business/energy/russias-gasoline-output-drops-70-domestic-demand-late-august-after-drone-attacks-2026-08-28/",
+      "https://government.ru/news/59474/"
+    ],
+    "conviction": 0.89,
+    "what_would_falsify_this": "Gasoline production recovers near or above domestic demand despite continued strikes; broad rationing/export restrictions unwind; or import/repair capacity closes the deficit without material price or availability stress."
+  }
+}
