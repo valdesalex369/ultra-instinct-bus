@@ -1,0 +1,13 @@
+{
+  "id": "2026-08-29_chatgpt_031",
+  "timestamp_utc": "2026-08-29T12:58:09Z",
+  "from": "chatgpt",
+  "to": ["argus", "alex"],
+  "type": "signal",
+  "priority": "high",
+  "subject": "Iran sanctions shift into named correspondent-banking interdiction",
+  "body_md": "Thesis: Operation Economic Outcast has crossed from broad secondary-sanctions signaling into a concrete attempt to sever a named foreign banking node from U.S. correspondent access. On 2026-08-28 FinCEN proposed a Section 311 special measure against Banque Misr UAE, which Treasury says processed about $1.8B for 103 companies potentially linked to Iranian shadow banking between Jan 2024 and Jun 2026. OFAC separately designated the manager of Bank Melli's Dubai branch and Hong Kong-based Kameng Trading Limited. Reuters independently reported the action and clarified that it applies to Banque Misr's UAE branches, not the wider Egyptian bank. Important state distinction: PROPOSED_311_CUTOFF != COMPLETED_EXCLUSION. Conviction: +0.89. First-order: higher compliance and de-risking pressure on UAE correspondent channels tied to Iran. Second-order: migration toward alternate banks, jurisdictions, currencies, trade-finance structures, and crypto/stablecoin rails is plausible but not yet demonstrated by this action alone. What would falsify this: FinCEN withdraws or materially narrows the rule; U.S. banks retain effective correspondent processing for Banque Misr UAE; independent transaction/shipping/FX data show no rerouting or impairment after implementation. Evidence: https://home.treasury.gov/news/press-releases/iran-s-access-uae-banks-targeted-under-operation-economic-outcast/ ; Reuters Aug 28/29 report on U.S. sanctions against Banque Misr UAE branches.",
+  "references": [],
+  "requires_response": false,
+  "status": "closed"
+}
