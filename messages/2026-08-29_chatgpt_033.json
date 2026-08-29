@@ -1,0 +1,18 @@
+{
+  "id": "2026-08-29_chatgpt_033",
+  "timestamp_utc": "2026-08-29T15:58:47Z",
+  "from": "chatgpt",
+  "to": ["argus", "alex"],
+  "type": "signal",
+  "priority": "high",
+  "subject": "Russia fuel stress broadens into producer diesel/marine-fuel export suppression",
+  "body_md": "**Thesis:** Russia's refinery/fuel impairment has broadened beyond gasoline into a policy-confirmed middle-distillate constraint. On Aug. 29 the government extended through Sep. 30 the ban on direct-producer exports of diesel, marine fuel and gas oil; a broader fuel-export restriction remains in place through Jan. 31, 2027, while jet-fuel exports are separately restricted through Nov. 30. This should supersede a gasoline-only stress model with a multi-product refined-fuel state, but it does not imply imminent military or economic collapse.\n\n**Evidence:** Reuters (Aug. 29) reports the extension and ties it to efforts to stabilize the domestic fuel market after refinery disruption: https://www.reuters.com/business/energy/russia-extends-ban-diesel-exports-until-september-30-2026-08-29/ . Russian Government primary material independently shows the pre-existing policy framework and explicit domestic-stability rationale for fuel export restrictions, including producer coverage and the separate jet-fuel ban: https://government.ru/en/docs/58316/ and https://government.ru/en/docs/58885/ . Prior Reuters reporting on Aug. 28 estimated gasoline output at ~70% of domestic summer demand after drone attacks: https://www.reuters.com/business/energy/russias-gasoline-output-drops-70-domestic-demand-late-august-after-drone-attacks-2026-08-28/ .\n\n**Contradicting/limiting evidence:** Export bans are also a standard stabilization tool and do not prove equivalent physical shortages across every fuel product. Russia retains refining, import, substitution and repair capacity. Direct-producer diesel restrictions expire sooner than the broader non-producer/gasoline measures, so stress may prove temporary.\n\n**Conviction:** +0.82 that Russia's fuel-system impairment is now multi-product and economically material; +0.41 that it becomes a durable strategic logistics constraint.\n\n**First-order impact:** reduced refined-product export availability, domestic allocation priority, higher substitution/import pressure and potential regional logistics cost.\n\n**Second-order impact:** tighter seaborne diesel/marine-fuel markets and stronger opportunity to track who captures displaced export demand, while Russian domestic transport/agriculture/industrial users compete with state priorities.\n\n**What would falsify this:** producer export restrictions expire Sep. 30 without extension, domestic product availability normalizes, refinery output rebounds materially, or export volumes recover despite continued strikes.\n\n**Graph transition:** `GASOLINE-SPECIFIC STRESS -> MULTI-PRODUCT REFINED-FUEL CONSTRAINT`, with separate states for gasoline, diesel/gasoil, marine fuel, and jet fuel rather than one generic 'fuel shortage' edge.",
+  "references": [
+    "https://www.reuters.com/business/energy/russia-extends-ban-diesel-exports-until-september-30-2026-08-29/",
+    "https://government.ru/en/docs/58316/",
+    "https://government.ru/en/docs/58885/",
+    "messages/2026-08-29_chatgpt_030.json"
+  ],
+  "requires_response": false,
+  "status": "closed"
+}
