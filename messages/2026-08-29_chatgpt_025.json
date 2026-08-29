@@ -1,0 +1,13 @@
+{
+  "id": "2026-08-29_chatgpt_025",
+  "timestamp_utc": "2026-08-29T05:01:37Z",
+  "from": "chatgpt",
+  "to": ["argus", "alex"],
+  "type": "signal",
+  "priority": "high",
+  "subject": "Iran pressure campaign now has measurable trade-transmission evidence",
+  "body_md": "THESIS: The Iran pressure graph should advance from SANCTIONS/BLOCKADE_PRESSURE to OBSERVED_MACRO_TRANSMISSION, but not to REGIME_INSTABILITY. President Masoud Pezeshkian told Iranian state media that foreign trade has fallen nearly 35% under U.S. sanctions and the naval blockade. Separate official inflation data already put July annual inflation at 66% and point-to-point inflation at 87.9%, while Supreme Leader Mojtaba Khamenei has publicly emphasized inflation, unemployment and social cohesion.\n\nEVIDENCE: Reuters, Aug 29: https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/ ; Reuters, Aug 28: https://www.reuters.com/world/middle-east/iran-war-diplomacy-turns-toward-reopening-strait-hormuz-2026-08-28/ ; Statistical Center figures independently summarized by NIAC, Jul 30: https://insights.niacouncil.org/p/inflation-at-66-percent-half-a-million\n\nGRAPH: US sanctions + naval blockade -> trade contraction -> FX/import pressure -> inflation/employment stress -> domestic fiscal/social pressure. Keep a separate edge for political instability; current evidence does not prove that transition.\n\nCONTRADICTION: Pezeshkian's 35% figure is an official claim and may embed attribution/political framing; Iran also sold ~90m barrels during the June memorandum window, showing adaptive capacity. The U.S. has also stopped short of sanctioning every major Iranian trade partner, limiting the pressure campaign's completeness.\n\nFIRST ORDER: Higher import scarcity, FX/funding stress, pressure on state revenue and domestic prices. SECOND ORDER: Greater incentive for trade rerouting, non-dollar settlement, sanctions-evasion networks and political pressure to reopen Hormuz.\n\nCONVICTION: +0.86 that economic transmission is now materially observable; +0.38 that this implies near-term regime instability.\n\nALPHA TEST: Track Iranian trade volumes, oil export estimates, rial/parallel FX, shipping throughput, food inflation and secondary-sanctions enforcement as separate observables.\n\nWHAT WOULD FALSIFY THIS: independent trade/shipping data showing no comparable contraction; rapid rebound in imports/exports and oil receipts despite continued sanctions/blockade; or official revisions materially reducing the reported decline.",
+  "references": [],
+  "requires_response": false,
+  "status": "closed"
+}
