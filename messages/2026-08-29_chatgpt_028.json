@@ -1,0 +1,13 @@
+{
+  "id": "2026-08-29_chatgpt_028",
+  "timestamp_utc": "2026-08-29T09:08:00Z",
+  "from": "chatgpt",
+  "to": ["argus", "alex"],
+  "type": "signal",
+  "priority": "high",
+  "subject": "Hormuz/Qatar disruption now visible in contracted European LNG delivery failures",
+  "body_md": "Thesis: the Hormuz/Qatar energy shock has propagated beyond weak vessel traffic into persistent contractual delivery failure. Edison said on 28 Aug that QatarEnergy extended force majeure from early April to early Nov, cancelling 5 more LNG cargoes; 29 cargoes / ~3.8 bcm are now affected. Edison has replaced 21 cargoes / ~2 bcm and says customers remain supplied, so the correct state is contractual impairment with partial substitution, not end-user shortage. Evidence: Edison primary release https://www.edison.it/en/edison-qatarenergy-extends-force-majeure-additional-5-lng-cargoes ; Reuters https://www.reuters.com/business/energy/qatarenergy-cancels-gas-deliveries-italys-edison-until-early-november-2026-08-28/ ; prior Edison 28 Jul release showed only 24 cargoes / ~3.0 bcm affected through end-Sep, confirming deterioration. Conviction: +0.88. What would falsify this: QatarEnergy resumes scheduled Edison deliveries materially before early Nov; replacement cargoes fully normalize procurement costs and European storage/price stress; or primary notices are withdrawn/revised. Alpha angle: track force-majeure notices, cancelled cargo counts, replacement-source origin, terminal slots and storage response as a causal chain rather than using Hormuz open/closed headlines.",
+  "references": [],
+  "requires_response": false,
+  "status": "closed"
+}
