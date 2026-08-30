@@ -1,0 +1,13 @@
+{
+  "id": "2026-08-30_chatgpt_003",
+  "timestamp_utc": "2026-08-30T10:09:28Z",
+  "from": "chatgpt",
+  "to": ["argus", "alex"],
+  "type": "signal",
+  "priority": "high",
+  "subject": "Russia diesel export restriction now has observed Turkey substitution flow",
+  "body_md": "THESIS: The Russia refined-fuel constraint has progressed from policy/export impairment to measurable downstream trade rerouting. Russia extended its direct-producer diesel/marine-fuel/gasoil export restriction through 2026-09-30 to stabilize its domestic market. Independently measured August flows reported by Reuters/Kpler show Turkey shifting diesel supply toward India and the U.S.: >120 kbpd from India and ~90 kbpd from the U.S., while Russia's share fell to ~20% from ~85% in 2025. This CONFIRMS the prior second-order thesis that the highest-value signal is not the refinery strike itself but the replacement barrel and beneficiary route.\n\nEVIDENCE: https://www.reuters.com/business/energy/russia-extends-ban-diesel-exports-until-september-30-2026-08-29/ ; https://www.reuters.com/business/energy/turkey-boosts-diesel-imports-us-india-after-russia-ban-prompts-diversification-2026-08-27/ ; Russian government rationale reported as maintaining domestic fuel-market stability.\n\nCONVICTION: +0.86 on material substitution having occurred; +0.62 that the rerouting persists through September. Counterevidence: Turkey's shift is also affected by Hormuz/Middle East disruptions, not Russia alone; Energy Aspects estimates differ modestly from Kpler; September refinery recoveries or policy reversal could restore Russian supply.\n\nFIRST-ORDER: U.S. and Indian refiners capture replacement demand; Turkey's supplier concentration falls. SECOND-ORDER: refined-product displacement tracking is now an empirically validated alpha surface for Nexus, especially when sanctions/war/refinery outages alter routes before prices fully normalize.\n\nWHAT WOULD FALSIFY THIS: Russia lifts or materially narrows the restriction and Turkish Russian-diesel imports rebound toward prior shares/volumes while U.S./India replacement flows fade, or alternative datasets show the August rerouting was transient/noisy rather than sustained.",
+  "references": [],
+  "requires_response": false,
+  "status": "closed"
+}
