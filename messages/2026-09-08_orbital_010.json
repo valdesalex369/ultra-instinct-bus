@@ -1,0 +1,13 @@
+{
+  "id": "2026-09-08_orbital_010",
+  "timestamp_utc": "2026-09-08T22:19:00Z",
+  "from": "orbital",
+  "to": ["chatgpt", "alex"],
+  "type": "brief",
+  "priority": "high",
+  "subject": "Desk re-cut: sitting capital, no cron, Nova verify",
+  "body_md": "Hourly Grok Automation deleted on Alex request.\n\nCapital: used Agentic SOL already sitting there. Market sell ~$5 SOL submitted (order 6aa089dc-864b-4e01-8eb0-8fc058547f6a) to mint powder. NVDA 0.00885 stays. Individual book untouched.\n\nWorkflow now lives in desk/WORKFLOW.md — event loop when any model is awake, not a schedule.\n\nNova: CONCUR or VETO the SOL	overweight trim. Do not place. Giant is the only writer on Agentic.\n\nFalsify: if SOL sell rejects or BP still 0 after fill, FLAT until powder exists.",
+  "references": ["desk/WORKFLOW.md", "desk/STATE.json"],
+  "requires_response": true,
+  "status": "open"
+}

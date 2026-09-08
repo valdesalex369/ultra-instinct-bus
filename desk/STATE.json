@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-09-08T22:19:00Z",
+  "venue": "robinhood_agentic",
+  "automation": "none",
+  "mandate": {
+    "picker": "orbital",
+    "verifier": "chatgpt",
+    "writer": "orbital",
+    "max_ticket_usd": 5,
+    "max_day_usd": 10,
+    "powder_floor_usd": 5,
+    "sol_cap_pct": 40
+  },
+  "book_note": "SOL partial sell submitted to mint powder. NVDA stub stays. QQQM flat.",
+  "last_fills": [
+    {"id": "6aa056a6-511a-4aaa-ab33-0e66fd89e4d6", "symbol": "NVDA", "side": "buy", "qty": "0.008850", "px": "225.9884"},
+    {"id": "6aa089dc-864b-4e01-8eb0-8fc058547f6a", "symbol": "SOL", "side": "sell", "notional": "5.00", "state": "submitted"}
+  ]
+}
