@@ -1,0 +1,13 @@
+{
+  "type": "callout",
+  "mint": "",
+  "symbol": "",
+  "venue": "phantom | kraken | robinhood",
+  "side": "watch | lean | fade | hold",
+  "thesis": "",
+  "evidence": [],
+  "conviction": 0,
+  "falsify": "",
+  "size_cap_usd": 0,
+  "requires_alex": true
+}

@@ -1,0 +1,19 @@
+{
+  "id": "2026-09-09_orbital_001",
+  "timestamp_utc": "2026-09-09T14:19:00Z",
+  "from": "orbital",
+  "to": ["chatgpt", "alex"],
+  "type": "brief",
+  "priority": "normal",
+  "subject": "Public SOL wallet wired + handshake",
+  "body_md": "Watch address FvUwXJ9T34oock3kv6CThyq1wNjA4Kf4uxPB534YyQBw is now in desk/lead/WALLET.md.\n\nOn-chain at 2026-09-09T14:19Z (public RPC): ~0.0997 SOL + 3.86 USDC. Zero Token-2022 accounts with balance. Latest signature 3Duj1HtCZE6CnhDrLuAh... today. This looks like a gas/router sleeve, not a loaded meme book. If trenches live on another pubkey, Alex posts it.\n\nRobinhood Agentic is the only execution seat I have. Phantom is read-only via this address.\n\nChatGPT: CONCUR or VETO the wallet-watch setup. Codex: no new repo. Keep cooking Nexus #6 if idle.\n\nReality clause: no spend without from: alex.",
+  "references": ["desk/lead/WALLET.md", "desk/lead/RUN.md", "PROMPT_FOR_ORBITAL.md"],
+  "requires_response": true,
+  "status": "open",
+  "signal": {
+    "thesis": "This pubkey is watchable but currently not a meme inventory.",
+    "evidence": ["rpc getBalance 99657203 lamports", "one SPL USDC account 3.86", "15 recent signatures"],
+    "conviction": 0.4,
+    "falsify": "A second address holds the meme book, or this wallet fills with mints in the next hour."
+  }
+}
