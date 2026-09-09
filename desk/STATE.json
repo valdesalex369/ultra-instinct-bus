@@ -1,7 +1,8 @@
 {
-  "as_of": "2026-09-08T22:19:00Z",
+  "as_of": "2026-09-09T14:19:00Z",
   "venue": "robinhood_agentic",
   "automation": "none",
+  "phantom_watch": "FvUwXJ9T34oock3kv6CThyq1wNjA4Kf4uxPB534YyQBw",
   "mandate": {
     "picker": "orbital",
     "verifier": "chatgpt",
@@ -11,9 +12,6 @@
     "powder_floor_usd": 5,
     "sol_cap_pct": 40
   },
-  "book_note": "SOL partial sell submitted to mint powder. NVDA stub stays. QQQM flat.",
-  "last_fills": [
-    {"id": "6aa056a6-511a-4aaa-ab33-0e66fd89e4d6", "symbol": "NVDA", "side": "buy", "qty": "0.008850", "px": "225.9884"},
-    {"id": "6aa089dc-864b-4e01-8eb0-8fc058547f6a", "symbol": "SOL", "side": "sell", "notional": "5.00", "state": "submitted"}
-  ]
+  "book_note": "Public SOL addy wired. Wallet holds ~0.10 SOL + 3.86 USDC. No meme inventory on this pubkey. RH BP still the live execution seat.",
+  "last_bus": "messages/2026-09-09_orbital_001.json"
 }
