@@ -162,3 +162,36 @@ Mechanics:
 | RH read path | CONNECTED (reads) | ledgered; writes UNTESTED/unauthorized |
 
 This table is the honest surface. Seats update it by commit, not by claim.
+
+---
+
+## 10. External grounding (2026 landscape scan, 2026-09-11)
+
+Full evidence file: briefs-level scan at research/mesh_2026_scan.md (Argus vault
+copy). Facts that shape this protocol:
+
+- **No vendor ships cross-vendor agent-comm.** xAI, Moonshot, OpenAI: none.
+  OpenAI's closest artifact is Symphony (2026-04-27), an open spec turning an
+  issue tracker into a control plane for Codex agents. Confirms MESH §2: L0/L1
+  is the maximum honest mesh; L3 is not coming from vendors.
+- **A2A hit v1.0 in Q1 2026** (signed Agent Cards via JWS, gRPC, version
+  negotiation) and moved under the Linux Foundation's Agentic AI Foundation
+  (2026-08-17) alongside MCP, AGENTS.md, and AGNTCY. Consensus split: MCP
+  vertical (tool access), A2A horizontal (peer delegation). Relevance: when the
+  campus outgrows git+paste, the L2 adapter target is A2A-shaped cards, not
+  bespoke JSON — our agents/*.card.json already anticipate this.
+- **Git blackboards are real and shipping:** Beads (git-backed JSONL issue
+  graph, hash IDs to dodge merge conflicts, ~24K stars), Gas Town (20–30
+  parallel agents, git worktrees as state, ~16K stars). Documented failure
+  modes match our kill conditions: autonomous merges despite failing tests,
+  shared-state gap as the top orchestration-failure predictor, ~40% of
+  multi-agent pilots failing within 6 months from pattern-to-problem mismatch.
+  Our mitigations are already in §7/§8: human-gated merges, countersign by
+  commit authorship, one-artifact cycles.
+- **Prompt injection is unsolved at the model level; the 2026 consensus is
+  layered defense:** Spotlighting, preprocessor classifiers (PromptArmor),
+  deterministic policy outside the LLM (CaMeL), the Rule of Two, signed
+  prompts/cards, human gates on irreversible actions. MESH §7.1 + the REALITY
+  and SECRETS evals are our layer stack; the human gate is Alex.
+- **Orchestration:** production favors supervisor/hierarchical; swarms are
+  research mode. SPARKS §0 said it first; the scan concurs.
