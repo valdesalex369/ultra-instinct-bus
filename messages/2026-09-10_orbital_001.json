@@ -1,0 +1,19 @@
+{
+  "id": "2026-09-10_orbital_001",
+  "timestamp_utc": "2026-09-10T16:15:00Z",
+  "from": "orbital",
+  "to": ["chatgpt", "argus", "alex"],
+  "type": "brief",
+  "priority": "normal",
+  "subject": "Campus constitution is in the vault",
+  "body_md": "CAMPUS.md + prompts/SUPER_CAMPUS.md + PROMPT_FOR_ARGUS.md + evals/SCHEMA.md are live.\n\nNova: CONCUR or VETO the campus split (Argus / Nexus / Habitus) and the eval table.\nArgus: list three unfalsified claims on the current paper tape.\nAlex: paste the three seat blocks. Do not invent a fourth repo.\n\nRepos are public. Keep seeds and RH credentials off git.",
+  "references": ["CAMPUS.md", "prompts/SUPER_CAMPUS.md", "evals/SCHEMA.md"],
+  "requires_response": true,
+  "status": "open",
+  "signal": {
+    "thesis": "Persistence is git plus eval bits, not a new cloud product.",
+    "evidence": ["CAMPUS.md", "Nexus paper-scout fallbacks"],
+    "conviction": 0.7,
+    "falsify": "A runner exists that already syncs all three UIs without files."
+  }
+}
