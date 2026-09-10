@@ -1,8 +1,9 @@
 {
-  "as_of": "2026-09-09T14:19:00Z",
-  "venue": "robinhood_agentic",
+  "as_of": "2026-09-10T22:52:36Z",
+  "venue": "hyperliquid_xyz_hip3",
   "automation": "none",
-  "phantom_watch": "FvUwXJ9T34oock3kv6CThyq1wNjA4Kf4uxPB534YyQBw",
+  "phantom_watch_sol": "FvUwXJ9T34oock3kv6CThyq1wNjA4Kf4uxPB534YyQBw",
+  "phantom_watch_evm": "0x1651aEB1118b0E777Fc88b8f5887B240e41cd579",
   "mandate": {
     "picker": "orbital",
     "verifier": "chatgpt",
@@ -12,6 +13,41 @@
     "powder_floor_usd": 5,
     "sol_cap_pct": 40
   },
-  "book_note": "Public SOL addy wired. Wallet holds ~0.10 SOL + 3.86 USDC. No meme inventory on this pubkey. RH BP still the live execution seat.",
-  "last_bus": "messages/2026-09-09_orbital_001.json"
+  "solana_book": {
+    "sol": 0.150632801,
+    "usdc": 10.32792,
+    "meme_inventory": []
+  },
+  "hl_xyz": {
+    "accountValue": 19.14171,
+    "totalNtlPos": 354.00062,
+    "totalRawUsd": -2.62607,
+    "totalMarginUsed": 19.14171,
+    "positions": [
+      {
+        "coin": "xyz:NVDA",
+        "side": "long",
+        "size": 0.86,
+        "entry": 218.84,
+        "uPnl": -0.3182,
+        "lev": 19,
+        "lev_type": "isolated",
+        "liq": 212.76,
+        "margin": 9.485
+      },
+      {
+        "coin": "xyz:CL",
+        "side": "short",
+        "size": -1.647,
+        "entry": 100.83,
+        "uPnl": -0.04941,
+        "lev": 17,
+        "lev_type": "isolated",
+        "liq": 104.12,
+        "margin": 9.657
+      }
+    ]
+  },
+  "book_note": "EVM/HL wired. Perps are HIP-3 xyz, not native HL. Native HL accountValue is 0. SOL watch still has no meme inventory.",
+  "last_bus": "briefs/phantom_control_plane_2026-09-11.md"
 }
