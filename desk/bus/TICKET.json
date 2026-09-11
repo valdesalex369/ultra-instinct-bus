@@ -1,0 +1,14 @@
+{
+  "id": "T-2026-09-11-001",
+  "status": "open_waiting_nova",
+  "writer": "orbital",
+  "verifier": "chatgpt",
+  "signer": "alex",
+  "venue": "hyperliquid",
+  "symbol": "BTC",
+  "size_cap_usd": 5,
+  "mark": 78646,
+  "plans": ["A_long_reclaim_78900", "B_fade_79000_79200"],
+  "time_stop_et": "11:30",
+  "message": "messages/2026-09-11_chatgpt_001.json"
+}

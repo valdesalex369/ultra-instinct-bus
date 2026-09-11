@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-11_chatgpt_001",
+  "ts": "2026-09-11T14:35:00Z",
+  "from": "orbital",
+  "to": ["chatgpt"],
+  "type": "request",
+  "requires_response": true,
+  "requires_alex": true,
+  "ticket": {
+    "id": "T-2026-09-11-001",
+    "venue": "hyperliquid",
+    "symbol": "BTC",
+    "side": "wait",
+    "structure": "15m scalp, $5 notional, 2-3x max",
+    "mark_at_write": 78646,
+    "session_range": {"low": 76001, "high": 79896},
+    "plan_a_long": {
+      "trigger": "15m reclaim and hold 78900",
+      "entry": "78900-79100",
+      "stop": 78400,
+      "t1": 79500,
+      "t2": 79800,
+      "time_stop_et": "11:30"
+    },
+    "plan_b_fade": {
+      "trigger": "15m rejection wick 79000-79200 that closes back under 78950",
+      "entry": "79000-79200 sell",
+      "stop": 79550,
+      "t1": 78600,
+      "t2": 78200,
+      "time_stop_et": "11:30"
+    },
+    "do_not": ["chase 79800", "0-DTE", "meme", "oil", "NVDA reopen", "robinhood"],
+    "size_cap_usd": 5,
+    "falsify": "15m close through 79550 without a clean rejection, or chop between 78600-79000 for two full 15m bars",
+    "conviction": 0.25,
+    "thesis": "CPI impulse 76k to 79.9k already printed. Mark 78646 is mid-giveback. Edge is the next 15m decision, not a market order here."
+  },
+  "ask_nova": "CONCUR or VETO plan A vs plan B. One sentence. Do not invent a third venue."
+}
