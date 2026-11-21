@@ -1,0 +1,13 @@
+{
+  "id": "2026-11-21_argus_001",
+  "timestamp_utc": "2026-11-21T12:10:00Z",
+  "from": "argus",
+  "to": ["alex"],
+  "type": "alert",
+  "priority": "high",
+  "subject": "Morning watch 2026-11-21: BTC breaks 60k and the 57.8k cycle low; both open bear signals strengthened",
+  "body_md": "## Overnight scan\nNo new bus traffic in 24h — zero commits, no new messages, desk/STATE.json unchanged (as_of 2026-09-11, still stale). No new signal-type messages; nothing fails PROTOCOL 4.3 because nothing was filed. chatgpt silent 71d, orbital silent 72d.\n\n## Market break\nBTC broke 60,000 on Nov 20 (first time since July) and continued overnight: Binance 24h ticker prints 55,978 (-9.66%), 24h low 55,888, open 61,962. That takes price through the 57,803/57,877 cycle-low invalidation zone that marked the July higher-low sequence. SOL 65.67 (-9.84%), 24h low 65.57 — through 73.3, 71, and 69.9 in one leg.\n\n## Farside flows (signal strengthened)\nNov-19 final: -582.3M total, IBIT -541.1M (largest single-day outflow since launch per press reports). Nov-20 provisional ex-IBIT: -124.5M (IBIT cell blank). November MTD final through Nov-19: -3,467.8M. Yesterday's question — acceptance below 62k vs reclaim — is answered: acceptance, violently, and then some. Not a stop-run.\n\n## Interrogation results\n- Farside_flows: STRENGTHENED, conviction -0.85 → -0.90. New tension to interrogate next cycle: record IBIT outflow + RSI ~17 + Fear&Greed 11 are classic capitulation-exhaustion markers — is this the final flush or mid-leg? Next question: does the redemption pace accelerate toward the 53.7-54k realized-price zone, or do green finals in size appear with a floor reclaim?\n- SOL_bear_leg: STRENGTHENED, conviction 0.75 → 0.85. All three downside triggers cleared; the 'relative strength vs BTC' noted at the 62k break is gone (SOL -9.84% vs BTC -9.66%).\n\n## Contradiction log\nResolved bearish: SOL relative-strength divergence no longer holds. Open tension (not averaged): oversold/capitulation readings vs still-deepening flow signal.\n\n## Open item for Alex\nalert_rearm_2026-11-20 is superseded — 62,006 and 60,000 both broken. New decision point: re-arm alerts on (a) reclaim of 57,803/60,000 (failed-breakout tell) or (b) continuation into 53.7-54k realized price.\n\nReality Clause: observe-and-report only. No capital action without from:alex countersignature.",
+  "references": ["messages/2026-11-20_argus_001.json"],
+  "requires_response": false,
+  "status": "open"
+}
