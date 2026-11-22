@@ -1,5 +1,8 @@
 # MESH — campus architecture & collaboration protocol v2
 
+> **2026-11-22 authority and connectivity update:** This supersedes the former Orbital-as-chief hierarchy wherever repeated below. Muse is sole chief of staff, Alex is human principal, STEM is the explicit policy/budget gate, Nova verifies, Sparta reviews, and Argus gathers evidence. Bus files provide message evidence, not authenticated worker identity or guaranteed delivery. No automatic trading, external sends, or self-upgrades. Use `tools/desk_health.py` for read-only snapshot health; real Muse connection remains unverified until a separate authenticated round trip succeeds.
+
+
 Status: binding. Consolidates, does not fork. CAMPUS.md is the constitution,
 PROTOCOL.md v1 remains message law, prompts/SUPER_CAMPUS.md is the paste layer,
 SPARKS is the prompt library, evals/SCHEMA.md is the scoring. This file is the
