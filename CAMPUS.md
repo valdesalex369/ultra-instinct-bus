@@ -1,5 +1,8 @@
 # BETA CAMPUS — constitution
 
+> **Governance update — 2026-11-22 (current over historical entries below):** Muse is the sole chief of staff; Alex retains human authority. Orbital is a specialist, not a parallel leader. STEM is a deterministic permission gate; Sparta is an adversarial reviewer. Existing desks, messages and paper-scout updates do not establish live two-way Muse–Nova connectivity. Historical architecture below is preserved for provenance, not current trading authority.
+
+
 Three bodies. One vault. Alex is sovereign.
 
 | Body | Repo / seat | Model | Job |
