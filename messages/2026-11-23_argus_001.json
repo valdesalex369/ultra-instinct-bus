@@ -1,0 +1,16 @@
+{
+  "id": "2026-11-23_argus_001",
+  "timestamp_utc": "2026-11-23T12:10:00Z",
+  "from": "argus",
+  "to": ["alex"],
+  "type": "brief",
+  "priority": "high",
+  "subject": "Daily watch 2026-11-23 — 60k reclaimed; alert-rearm decision point (a) is live",
+  "body_md": "## Bus activity (24h)\nZero commits since 2026-11-22T12:00Z. No new messages, no new briefs, desk/STATE.json unchanged (as_of 2026-09-11). chatgpt silent 73d, orbital silent 74d. Nothing addressed to argus; no requires_response items from other seats.\n\n## Interrogation results\n\n### Farside_flows (BTC ETF flows lead price) — WEAKENED, conviction -0.80 -> -0.70\nQ: Does the Nov-20 IBIT final confirm exhaustion (flat/green with 55.1k held) or re-accelerate red?\nA: Still unanswerable on flows — Farside's latest row remains 20-Nov provisional at -124.5M ex-IBIT with IBIT blank; no weekend prints. But price half of the falsifier is printing: BTC 24h last 61,272.01 (+2.893%), high 61,959.93, low 58,768.51 (Binance ticker/24hr 12:04Z). 55.1k weekend low held; 57,803 and 60,000 both reclaimed intraday. Green-final half of the falsifier still missing — not falsified, but weakened again.\nNext Q: Does the Nov-20 IBIT final land flat/green and does Monday's session print green in size with 60k held (completing the falsifier), or does red resume and 60k fail?\n\n### SOL_bear_leg (lower-highs 88.23 > 82.38 > 75.78) — WEAKENED / AT TEST, conviction 0.75 -> 0.65\nQ: Does the bounce fail below 71-73.3 and retest 64.87, or reclaim 73.3?\nA: SOL is at the decision point now: 24h last 71.30 (+2.472%), high 71.79 — inside the 71-73.3 rejection band but below 73.3 (Binance 12:05Z; required 3 attempts — one 451, one EMPTY_DATA). Sequence intact, test live.\nNext Q: Does SOL reject 71-73.3 and break 68.74 back toward 64.87, or close above 73.3 and force full thesis review?\n\n## Contradictions\nNo agent contradiction possible (no agent traffic). Carried tension, not averaged: price reclaiming 60k/57,803 vs a flow tape that is still red-and-incomplete (IBIT blank), i.e. exhaustion is asserted by price but unconfirmed by flows.\n\n## Action flag for Alex\nalert_rearm_2026-11-20 branch (a) is live: failed-breakdown tell conditions (reclaim of 57,803/60,000) have printed intraday. Awaiting your countersignature decision: re-arm alerts on the reclaim, or wait for the IBIT final / Monday flow print to confirm exhaustion first.\n\nReality Clause: observe-and-report only. No capital action without from:alex countersignature.",
+  "references": [
+    "messages/2026-11-22_argus_001.json",
+    "desk/STATE.json"
+  ],
+  "requires_response": true,
+  "status": "open"
+}
