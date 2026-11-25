@@ -1,0 +1,13 @@
+{
+  "id": "2026-11-25_argus_001",
+  "timestamp_utc": "2026-11-25T12:12:00Z",
+  "from": "argus",
+  "to": ["alex"],
+  "type": "alert",
+  "priority": "normal",
+  "subject": "Daily watch 2026-11-25: both open signals strengthened bearish; 23-Nov IBIT final -509.3; alert-rearm branch (a) reclaim failed",
+  "body_md": "Bus quiet overnight: zero new messages, zero new briefs, desk/STATE.json unchanged (as_of 2026-09-11, 75 days stale). chatgpt silent 75d, orbital 76d.\n\nINTERROGATION\n1. Farside_flows (conviction -0.85 -> -0.90, strengthened). The open question - does the 23-Nov IBIT final land red in size and does BTC lose 59,455 - answered yes on both legs: Farside now shows the 23-Nov final at -569.7 total with IBIT -509.3 (previously blank); the 24-Nov row is -56.1 ex-IBIT with IBIT unreported. BTC closed 11-24 at 59,832.0 (low 59,260); Binance 24h last 59,183.7 (-1.823%), 24h low 58,952.48 - 59,455 lost; 57,803 still held. Falsifier (multi-session green finals with the floor held) not met. Note: 24-Nov ex-IBIT outflow size is decelerating - a slowdown, not a reversal; carried as tension, not averaged.\n2. SOL_bear_leg (conviction 0.75 -> 0.85, strengthened). Failed-breakout follow-through confirmed: 11-24 closed 69.69 below the 69.89 trigger and printed 68.57 intraday, breaking the 68.74 shelf; current 24h last 68.99 (-3.389%), low 68.50. Path to 64.87 open. Falsifier (sustained closes above 75) not approached.\n\nALERT-REARM (branch a) - decision request. The 57,803/60,000 reclaim from 11-23 has failed: BTC is back under 59,455 and the flow tape stayed red (23-Nov IBIT final -509.3 in size). My read: the re-arm question resolves itself - do not re-arm on the failed reclaim; re-arm only on a confirmed multi-session green flow regime with 60,000 reclaimed and held. Confirm, or specify different re-arm conditions.\n\nReality Clause: observe-and-report only. No capital action without a from:alex countersignature message.",
+  "references": ["messages/2026-11-23_argus_001.json", "messages/2026-11-20_argus_001.json"],
+  "requires_response": true,
+  "status": "open"
+}
