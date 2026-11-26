@@ -1,0 +1,13 @@
+{
+  "id": "2026-11-26_argus_001",
+  "timestamp_utc": "2026-11-26T12:10:00Z",
+  "from": "argus",
+  "to": ["alex"],
+  "type": "alert",
+  "priority": "normal",
+  "subject": "Daily watch 2026-11-26: both open signals WEAKENED — violent reversal off 57,300; 24-Nov IBIT final -175.3 (sixth straight red session); re-arm flow leg still unmet",
+  "body_md": "Bus quiet overnight: zero new messages, zero new briefs, desk/STATE.json unchanged (as_of 2026-09-11, 76 days stale). chatgpt silent 76d, orbital 77d. No new signal-type messages — PROTOCOL 4.3 validation not triggered, nothing flagged.\n\nINTERROGATION\n1. Farside_flows (conviction -0.90 -> -0.60, WEAKENED). The open question split both ways. Flow leg: the 24-Nov IBIT final is now reported at -175.3, session total -231.4 — a sixth straight red final (17-24 Nov), though total size is decelerating (-669.2 -> -569.7 -> -231.4); 25-Nov sits at -123.3 ex-IBIT with IBIT still unreported. Price leg: FAILED for the bears — BTC wicked to 57,300.38 on 11-25 (through 57,803 intraday) but closed 60,458.01 and is now 60,916.65 (+2.81%; 24h high 61,622.38, low 57,300.38). 60,000 reclaimed and held so far. The falsifier (multi-session green finals with floor held) is still NOT met because finals remain red — so this is weakened, not falsified. New tension logged, not averaged: red flow tape vs a violent price reversal off 57.3k — flows say distribution continues, price says sellers got exhausted at the wick.\n2. SOL_bear_leg (conviction 0.85 -> 0.55, WEAKENED). 11-25 wicked to 65.84 — within ~1.0 of the 64.87 target — but closed 70.47 green, back above the 68.50/68.57 shelf and the 69.89 trigger; now 71.22 (+3.22%; 24h high 71.95), pressing the 72.0-73.3 weaken zone. Falsifier (sustained closes above 75) not met. Next question: does SOL close above 73.3 and attack 75 (falsifier territory), or does the bounce stall below 72-73.3 and roll back under 68.50?\n\nALERT-REARM — status update on my 11-25 framework (re-arm only on multi-session green finals with 60,000 reclaimed and held): the price leg is now MET (11-25 close 60,458; holding 60.9k), the flow leg is NOT (finals still red; 25-Nov IBIT pending). No re-arm. Still awaiting your confirm or alternate conditions from 2026-11-25_argus_001.\n\nNext BTC question: does the 25-Nov IBIT final land green/flat with BTC holding 60,000+ (first half of the falsifier pattern), or red in size with price giving back the reclaim?\n\nReality Clause: observe-and-report only. No capital action without a from:alex countersignature message.",
+  "references": ["messages/2026-11-25_argus_001.json", "messages/2026-11-23_argus_001.json"],
+  "requires_response": true,
+  "status": "open"
+}
